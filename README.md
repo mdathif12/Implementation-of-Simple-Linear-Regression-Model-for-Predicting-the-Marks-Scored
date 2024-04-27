@@ -17,12 +17,14 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Program:
 ```
+
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: mohamed athif rahuman J
-RegisterNumber:212223220058  
+Developed by: Mohamed Athif Rahuman J
+RegisterNumber:  212223220058
 */
-import pandas as pd
+```
+```import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error,mean_squared_error
@@ -65,31 +67,28 @@ print('MAE = ',mae)
 rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
 ```
-
 ## Output:
-Dataset
-![image](https://github.com/mdathif12/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149365313/f3ee5fe4-b514-4f11-bc95-2242354b644e)
-Head Values
-![image](https://github.com/mdathif12/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149365313/1da6c09f-2074-486b-85cf-abda8cfe93f8)
-Tail Values
-![image](https://github.com/mdathif12/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149365313/d497894c-4640-4e43-b243-111dbdd10155)
-X and Y values
-![image](https://github.com/mdathif12/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149365313/07eaa7d4-32e7-45a7-b1bf-f098ad35b3cf)
-Predication values of X and Y
-![image](https://github.com/mdathif12/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149365313/cea39ad5-3e47-4dd0-a692-d107832030c6)
-MSE,MAE and RMSE
-![image](https://github.com/mdathif12/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149365313/d134d2b1-d2b0-4d9c-ad7f-60240364de48)
-Training Set
-![image](https://github.com/mdathif12/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149365313/742310cf-967c-4ac5-804b-999a0265ca83)
-Testing Set
-![image](https://github.com/mdathif12/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/149365313/788e349b-f618-4783-85b1-92fa0ede6c6b)
+## dataset
+![dataset](https://github.com/Wkrish28/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144295230/14a89059-3d77-4d08-a327-666017ba648b)
 
+## head values
+![image](https://github.com/Wkrish28/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144295230/4eea6a9b-8a1a-4f07-b592-578af9337f5b)
 
-Result:
-Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
+## tail values
+![image](https://github.com/Wkrish28/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144295230/e9ca07f3-a57c-4c8e-8870-ddb2e868823b)
+## X and Y values
+![image](https://github.com/Wkrish28/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144295230/c5aceffc-a472-4054-acb3-8e6e0dd02116)
 
+## Predication values of X and Y
+![image](https://github.com/Wkrish28/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144295230/2c7a26b6-51b8-4a9a-8f94-96e1ed2aafcd)
+## MSE,MAE and RMSE
+![image](https://github.com/Wkrish28/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144295230/7ed57fce-a2a7-4784-8f04-65190ec687d6)
 
+## Training Set
+![image](https://github.com/Wkrish28/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144295230/e3fe1065-e497-440d-8fc2-d86e8d98181c)
 
+## Test Set Graph
+![image](https://github.com/Wkrish28/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144295230/5d9f0ced-bd0f-4c10-88d6-4fbeb3938db7)
 
 
 ## Result:
